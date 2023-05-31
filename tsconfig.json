@@ -2,7 +2,8 @@
 	"extends": "@tsconfig/react-native/tsconfig.json",
 	"compilerOptions": {
 		"paths": {
-			"mc/*": ["./*"]
-		}
+			"mc/*": ["./app/*"]
+		},
+		"typeRoots": ["src/@types", "node_modules/@types"]
 	}
 }
